@@ -1,5 +1,5 @@
 # Front End Web Developer
-## Personal Blog Pages
+## Project 1: Personal Blog Website
 ### Table of Contents
 
 * [Overview](#overview)
