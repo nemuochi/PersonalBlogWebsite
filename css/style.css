@@ -1,6 +1,11 @@
 /* Google font Noto Sans JP thin, medium, fold */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap');
+/* Import image css styles used in the class blogimgbox */
+@import url('img.css');
+/* Import other css styles */
+@import url('other.css');
 
+/* sytles for html tags, grids and flexbox */
 body {
   margin: 40px;
   /* font-size: 18px; */
@@ -24,37 +29,13 @@ a:hover{
   color: orange;
 }
 
-figure {
-    /* border: thin #c0c0c0 solid; */
-    display: flex;
-    flex-flow: column;
-    /* padding: 5px; */
-    max-height: 300px;
-    margin: auto;
-}
-
-img {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 5px;
-}
-
-figcaption {
-    /* background-color: #222; */
-    color: #fff;
-    font-size: 16px;
-    font-family: 'Noto Sans JP', sans-serif;
-    padding: 3px;
-    text-align: left;
-}
-
 .annotation{
   font-size: 0.5rem;
   font-style: italic;
 }
 
 /* grids */
-/* Smallest win: Anything smaller than first breakpoint 600px */
+/* Smallest window: Anything smaller than first breakpoint 600px */
 .container {
   display: grid;
   grid-gap: 16px;
@@ -138,31 +119,6 @@ figcaption {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-}
-
-#avatar{
-  border-radius: 50%;
-  width:100px;
-  height:100px;
-}
-i {
-  color: #96A0AA;
-  font-size: 2.5rem;
-}
-
-.btn {
-  border: none;
-  border-radius: 3px;
-  color: black;
-  font-size: 0.8rem;
-  padding: 4px 4px;
-  cursor: pointer;
-  background-color: white;
-  width:100%
-  }
-
-.btn:hover {
-  background-color: #96A0AA;
 }
 
 /* media query breakpoint*/

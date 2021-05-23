@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
     <title>Template Title!</title>
-    <meta name="description" content="Example" />
-    <link href="style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/12911822f2.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -14,7 +13,8 @@
       </div>
       <div class="box sidebar">
         <!-- Nasted grid sidebar -->
-        <div class="nestedgird">
+        <nav>
+          <div class="nestedgird">
           <div class="box one">
             <p>
               <a href="index.html">Blog Homepage</a>
@@ -48,35 +48,44 @@
             <button class="btn" onclick="location.href='https://www.instagram.com/'"><p>Follow</p></button>
           </div>
         </div>
+        </nav>
       </div>
       <div class="content box">
-        <h3>Author info</h3>
-        <h5>Name</h5>
-          <p>ゴーシュ</p>
-        <h5>Title</h5>
-          <p>セロを弾く係り</p>
-        <h5>Current Company/School</h5>
-          <p>活動写真館</p>
-        <h5>Short Bio</h5>
-          <p>
-            ゴーシュは町の活動写真館でセロを弾く係でした。けれどもあんまり上手でないといふ評判でした。上手でないどころではなく実は仲間の楽手のなかではいちばん下手でしたから，いっでも楽長にいぢめられるのでした。<br>
-            ひるすぎみんなは楽屋に円くならんで今度の町の音楽会へ出す第六交響曲の練習をしてゐました。
-            </p>
-        <h5>Avatar</h5>
-          <img id="avatar" src="./img/avatar.jpeg" alt="avatar"/>
-        <h5>Social Sharing</h5>
-        <p>
-          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true" title="twitter"></i></a>
-          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true" title="facebook"></i></a>
-          <a href="https://www.linkedin.com" target="_blank" aria-hidden="true"><i class="fab fa-linkedin" title="linkedin"></i></a>
-        </p>
+        <article>
+          <header>
+            <h3>Author info</h3>
+          </header>
+          <main>
+            <h5>Name</h5>
+              <p>ゴーシュ</p>
+            <h5>Title</h5>
+              <p><b>セロ</b>を弾く係り</p>
+            <h5>Current Company/School</h5>
+              <p>活動写真館</p>
+            <h5>Short Bio</h5>
+              <p>
+                ゴーシュは町の活動写真館でセロを弾く係でした。けれどもあんまり上手でないといふ評判でした。上手でないどころではなく実は仲間の楽手のなかではいちばん下手でしたから，いっでも楽長にいぢめられるのでした。<br>
+                ひるすぎみんなは楽屋に円くならんで今度の町の音楽会へ出す<u>第六交響曲</u>の練習をしてゐました。
+                </p>
+            <h5>Avatar</h5>
+              <img id="avatar" src="./img/avatar.jpeg" alt="avatar"/>
+            <h5>Social Sharing</h5>
+              <p>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square" aria-hidden="true" title="twitter"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true" title="facebook"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" aria-hidden="true"><i class="fab fa-linkedin" title="linkedin"></i></a>
+              </p>
+          </main>
+        </article>
       </div>
       <div class="footer box">
-        <div class="footerContainer">
-          <div class="box2"><p>Footer</p></div>
-          <div class="box2"><p>Footer</p></div>
-          <div class="box2"><p>Footer</p></div>
-        </div>
+        <footer>
+          <div class="footerContainer">
+            <div class="box2"><p>Footer</p></div>
+            <div class="box2"><p>Footer</p></div>
+            <div class="box2"><p>Footer</p></div>
+          </div>
+        </footer>
       </div>
     </div>
   </body>
